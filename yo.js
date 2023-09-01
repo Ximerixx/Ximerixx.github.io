@@ -99,8 +99,8 @@ function yo(self) {
         : '2A3440';
 
     var options_url = options.url
-        ? decodeURIComponent(options.url).trim() + (decodeURIComponent(options.url).indexOf('?')+1 ? '&' : '?') + 'cache' + Math.random().toString().substr(2, 3)
-        : 'https://ahoy.yohoho.' + tld + '?cache' + Math.random().toString().substr(2, 3);
+        //? decodeURIComponent(options.url).trim() + (decodeURIComponent(options.url).indexOf('?')+1 ? '&' : '?') + 'cache' + Math.random().toString().substr(2, 3)
+        //: 'https://ahoy.yohoho.' + tld + '?cache' + Math.random().toString().substr(2, 3);
     options.url = null;
 
     var options_loading = options.loading
